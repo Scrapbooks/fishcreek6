@@ -1,0 +1,64 @@
+/*External Style Sheet - Fish Creek Animal Clinic*/
+* {box-sizing: border box;}
+body {background-color: #5280C5;
+	background-image: url(gradientblue.jpg);
+	color: #003366;
+	font-family:Arial, Verdana, sans-serif; 
+	}
+header{background-color: #000066;
+	color: #F0F0F0;
+	text-align: center;
+	background-image: url(bigfish.gif);
+	background-position: center;
+	background-repeat: no-repeat;
+	}
+h1 {line-height: 250%;
+	text-indent: 1em;
+	margin-bottom: 0;
+	font-size: 3em;
+	padding: 0.2em;
+	text-shadow: #CCCCCC;
+	}
+nav {font-weight: bold;
+	float: left;
+	  width: 200px;
+	padding: 5px;
+	}
+nav ul { list-style-type: none;}
+nav a {text-decoration: none;}
+nav a:link {color: #000066;}
+nav a:visited {color: #5280C5;}
+nav a:hover {color: #3262A3;}
+dt {color: #5280C5; 
+	font-size: 1.1em;
+	font-weight: bold;
+	font-family: Georgia, "Times New Roman", serif; }
+main {margin-left: 180px;
+	padding-left: 2em;
+	padding-right: 2em;
+	background-color: #FFFFFF;
+	border: 1px solid #AEC3E3;
+}
+
+footer {text-align: center;
+		background-color: #AEC3E3;
+		font-size: .70em;
+		font-style: italic;
+		padding: 1em;
+		margin-left: 180px;
+		}
+img {border: none;}
+.category {color: #5380C5;
+			font-weight: bold;
+			font-family: Georgia, "Times New Roman", serif;
+			text-shadow: 1px 1px 1px #667;
+			}
+#wrapper {margin-left: auto;
+		margin-right: auto;
+		width: 80%;
+		min-width: 700px;
+		background-color: #F0F0F0; }
+header, nav, main, footer {display: block;}
+		
+			
+	
